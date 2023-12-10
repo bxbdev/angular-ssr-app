@@ -1,0 +1,8 @@
+<h1>Events</h1>
+<div *ngIf="post">
+  <h2>{{ post.title }}</h2>
+  <p>{{ post.body }}</p>
+</div>
+<div *ngIf="isLoading">
+  <p>Loading...</p>
+</div>
